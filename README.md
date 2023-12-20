@@ -13,23 +13,21 @@ Create or obtain an OpenAPI Specification (formerly known as Swagger Specificati
 **Step 3: Install OpenAPI Generator** 
 
 Open a terminal or command prompt and run the following command to install the OpenAPI Generator globally: 
-''' bash
-
+'''bash
 npm install @openapitools/openapi-generator-cli -g 
-
- '''bash
+'''
 **Step 4: Generate SDK** 
 
 Navigate to the directory where you have your OpenAPI Specification file. Run the following command to generate the SDK: 
-
+'''bash
 openapi-generator-cli generate -i your-api-spec.yaml -g your-sdk-generator -o output-directory --package-name package 
-
+'''
 Replace your-api-spec.yaml with the path to your OpenAPI Specification file, your-sdk- generator with the name of the generator you want to use (e.g., csharp, python, javascript,java), output-directory with the desired output directory for the generated SDK and package with your desired name for the package. If you don't add package name it will give open API-client. 
 
 For example, to generate a Python SDK named PythonSDK, you might use: 
-
+'''bash
 openapi-generator-cli generate -i your-api-spec.yaml -g python -o ./output/js-sdk --package-name PythonSDK 
-
+'''
 **Step 5: Explore the Generated SDK** 
 
 Once the generation process is complete, navigate to the specified output directory (./output/js- sdk in the example) to find the generated SDK files. The structure of the SDK will depend on the generator used. 
