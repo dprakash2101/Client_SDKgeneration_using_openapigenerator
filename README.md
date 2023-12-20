@@ -1,4 +1,4 @@
-# Generation of Client SDK using Open API Generator 
+# How to Generate of Client SDK using Open API Generator 
 
 Creating an SDK using the OpenAPI Generator involves several steps. OpenAPI Generator is a tool that allows you to generate client libraries, server stubs, and API documentation from an OpenAPI Specification. Below is a step-by-step guide for creating an SDK using OpenAPI Generator: 
 
@@ -54,8 +54,19 @@ Please consult the documentation of the[ OpenAPI Generator ](https://openapi-gen
 
 **Step 8: Publish the package in their respective package manager** 
 
-1. Python - Python Package Index(PyPI)/GitHub 
-1. Dotnet - Nuget Package Manager 
-1. Node.Js - NPM/GitHub 
-1. Java - Maven/GitHub 
-1. Go - Go packages/GitHub  
+1. Python - Python Package Index(PyPI)/GitHub
+2. Dotnet - Nuget Package Manager
+3.  Node.Js - NPM/GitHub
+4.  Java - Maven/GitHub
+5.  Go - Go packages/GitHub
+
+
+## Author
+
+- [Devi Prakash](https://github.com/dprakash2101)
+  
+
+
+
+
+   
