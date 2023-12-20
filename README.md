@@ -26,7 +26,7 @@ Navigate to the directory where you have your OpenAPI Specification file. Run th
 openapi-generator-cli generate -i your-api-spec.yaml -g your-sdk-generator -o output-directory --package-name package 
 ```
 
-Replace your-api-spec.yaml with the path to your OpenAPI Specification file, your-sdk- generator with the name of the generator you want to use (e.g., csharp, python, javascript,java), output-directory with the desired output directory for the generated SDK and package with your desired name for the package. If you don't add package name it will give open API-client. 
+Replace your-api-spec.yaml with the path to your OpenAPI Specification file, your-sdk- generator with the name of the generator you want to use (e.g., csharp, python, javascript,java), output-directory with the desired output directory for the generated SDK and package with your desired name for the package. If you don't add package name it will name it as openapi-client. 
 
 For example, to generate a Python SDK named PythonSDK, you might use: 
 
@@ -64,6 +64,7 @@ Please consult the documentation of the[ OpenAPI Generator ](https://openapi-gen
 ## Author
 
 - [Devi Prakash](https://github.com/dprakash2101)
+  
   
 
 
