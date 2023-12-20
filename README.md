@@ -13,9 +13,11 @@ Create or obtain an OpenAPI Specification (formerly known as Swagger Specificati
 **Step 3: Install OpenAPI Generator** 
 
 Open a terminal or command prompt and run the following command to install the OpenAPI Generator globally: 
+''' bash
 
 npm install @openapitools/openapi-generator-cli -g 
 
+ '''bash
 **Step 4: Generate SDK** 
 
 Navigate to the directory where you have your OpenAPI Specification file. Run the following command to generate the SDK: 
